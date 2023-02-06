@@ -1,11 +1,27 @@
 import bg from "@/images/footer-bg.jpg";
 import shape from "@/images/footer-shape.png";
 import logo from "@/images/logo-2.png";
+import {faDiscord, faFacebookSquare, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
 
 export const socials2 = [
   {
     id: 1,
-    icon: "fa-brands fa-facebook",
+    icon: faFacebookSquare,
+    href: "#",
+  },
+  {
+    id: 2,
+    icon: faDiscord,
+    href: "#",
+  },
+  {
+    id: 3,
+    icon: faLinkedin,
+    href: "#",
+  },
+  {
+    id: 4,
+    icon: faTwitter,
     href: "#",
   },
 ];
