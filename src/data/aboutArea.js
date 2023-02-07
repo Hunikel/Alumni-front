@@ -1,6 +1,4 @@
-import thumb3 from "@/images/about-introduction-thumb.jpg";
 import photo from "@/images/pourquoi_alumni.jpg";
-import image from "@/images/about-thumb-3.jpg";
 
 export const aboutArea = {
   photo,
@@ -17,7 +15,7 @@ export const aboutArea = {
 export const aboutAreaThree = {
   tagline: "Learn More About the Krowd",
   title: "Founded to Empower Innovation",
-  image,
+  photo,
   videoId: "2TvWZEVf6go",
   aboutTitle:
     "We empower people to unite around ideas that matter to them and together make those ideas come to life.",
@@ -41,7 +39,7 @@ export const aboutAreaThree = {
 };
 
 export const aboutIntroduction = {
-  thumb: thumb3,
+  thumb: photo,
   tagline: "Our Introduction",
   title: "Learn About Our Company",
   count: 8000,

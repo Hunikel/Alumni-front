@@ -34,7 +34,7 @@ const AboutArea = () => {
                 </ul>
               </div>
               <Link className="main-btn" href="/about">
-                Plus d'information
+                Plus d&apos;information
               </Link>
             </div>
           </Col>
