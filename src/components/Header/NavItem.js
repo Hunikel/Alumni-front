@@ -2,6 +2,8 @@ import { useRootContext } from "@/context/context";
 import { useRouter } from "next/router";
 import React from "react";
 import Link from "../Reuseable/Link";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faAngleDown} from "@fortawesome/free-solid-svg-icons";
 
 const NavItem = ({ navItem = {}, mobile = false, activeId, handleActive }) => {
   const { pathname } = useRouter();
@@ -33,7 +35,7 @@ const NavItem = ({ navItem = {}, mobile = false, activeId, handleActive }) => {
         {name}{" "}
         {mobile && subNavItems.length > 0 && (
           <span className="menu-expand">
-            <i className="fa fa-angle-down"></i>
+            <FontAwesomeIcon icon={faAngleDown} />
           </span>
         )}
       </Link>

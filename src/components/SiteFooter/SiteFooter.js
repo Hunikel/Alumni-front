@@ -5,6 +5,7 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 import Link from "../Reuseable/Link";
 import FooterList from "./FooterList";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faEnvelope} from "@fortawesome/free-regular-svg-icons";
 
 const { bg, logo, text, author, year, links, socials, text2, shape } =
   footerData;
@@ -50,7 +51,7 @@ const SiteFooter = () => {
                     placeholder="Email Address"
                   />
                   <button>
-                    <i className="fa fa-envelope"></i>
+                    <FontAwesomeIcon icon={faEnvelope} />
                   </button>
                 </div>
               </form>

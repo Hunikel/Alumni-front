@@ -2,6 +2,8 @@ import { useRootContext } from "@/context/context";
 import React from "react";
 import SearchIcon from "./SearchIcon";
 import Social from "./Social";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
 
 const HeaderInfo = ({ socials, icon, phone = "", searchColor }) => {
   const { toggleMenu, toggleSearch } = useRootContext();
@@ -15,7 +17,7 @@ const HeaderInfo = ({ socials, icon, phone = "", searchColor }) => {
         </a>
       </div>
       <div className="info d-none d-sm-block">
-          <button className="main-btn" type="submit">
+          <button className="main-btn" onClick={() => window.location.href='/login'} >
               Connexion
           </button>
       </div>
@@ -23,7 +25,7 @@ const HeaderInfo = ({ socials, icon, phone = "", searchColor }) => {
         onClick={toggleMenu}
         className="toggle-btn ml-30 canvas_open d-lg-none d-block"
       >
-        <i className="fa fa-bars"></i>
+        <FontAwesomeIcon icon={faBars} />
       </div>
     </div>
   );

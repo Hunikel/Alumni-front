@@ -13,10 +13,10 @@ export const navItems = [
     name: "L'association",
     href: "",
     subNavItems: [
-      { id: 1, name: "Agenda", href: "/projects-1" },
-      { id: 2, name: "Bureau", href: "/projects-2" },
-      { id: 3, name: "IESF", href: "/single-project" },
-      { id: 4, name: "Club A3IE", href: "/single-project" },
+      { id: 1, name: "Agenda", href: "/agenda" },
+      { id: 2, name: "Bureau", href: "/bureau"},
+      { id: 3, name: "IESF", href: "/iesf" },
+      { id: 4, name: "Club A3IE", href: "/a3ie" },
     ],
   },
   {
@@ -24,8 +24,8 @@ export const navItems = [
     name: "Carrière IIE",
     href: "",
     subNavItems: [
-      { id: 1, name: "Service carrière & emploi", href: "/projects-1" },
-      { id: 2, name: "Enquêtes", href: "/projects-2" },
+      { id: 1, name: "Service carrière & emploi", href: "/carriere" },
+      { id: 2, name: "Enquêtes", href: "/enquetes" },
     ],
   },
   {
@@ -33,11 +33,11 @@ export const navItems = [
     name: "L'école",
     href: "",
     subNavItems: [
-      { id: 1, name: "L'école, les enseignements", href: "/faq" },
-      { id: 2, name: "L'école en image", href: "/gallery" },
-      { id: 3, name: "Verser la Taxe d'Apprentissage", href: "/team-members" },
-      { id: 4, name: "Soutiens", href: "/team-members" },
-      { id: 5, name: "Taxe d'apprentissage", href: "/team-members" },
+      { id: 1, name: "L'école, les enseignements", href: "/enseignements" },
+      { id: 2, name: "L'école en image", href: "/images" },
+      { id: 3, name: "Verser la Taxe d'Apprentissage", href: "/taxe" },
+      { id: 4, name: "Soutiens", href: "/soutiens" },
+      { id: 5, name: "Taxe d'apprentissage", href: "/apprentissage" },
     ],
   },
   {
@@ -45,14 +45,14 @@ export const navItems = [
     name: "Contacts",
     href: "",
     subNavItems: [
-      { id: 1, name: "Nous contacter", href: "/news" },
-      { id: 2, name: "Délégués de promotion", href: "/single-news" },
+      { id: 1, name: "Nous contacter", href: "/contact" },
+      { id: 2, name: "Délégués de promotion", href: "/promo" },
     ],
   },
   {
     id: 6,
     name: "Compte-rendus",
-    href: "/contact",
+    href: "/compte-rendus",
   },
 ];
 
