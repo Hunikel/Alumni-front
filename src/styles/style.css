@@ -7488,3 +7488,8 @@ p {
 .center {
   text-align: center;
 }
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

@@ -24,12 +24,12 @@ const Admin = () => {
     }
 
     return (
-        <div className="d-flex h-100" >
+        <div className="d-flex vh-100 flex-grow-1" >
             <Navbar color="dark" dark className="w-10" >
                 <NavbarBrand href="/">Alumni dashboard</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className="ml-auto" navbar>
+                    <Nav className="ms-auto" navbar>
                         <NavItem>
                             <NavLink onClick={() => handleNavClick(<Profile />)}>Accueil</NavLink>
                         </NavItem>
