@@ -25,7 +25,7 @@ const Admin = () => {
 
     return (
         <div className="d-flex vh-100 flex-grow-1" >
-            <Navbar color="dark" dark className="w-10" >
+            <Navbar color="dark" dark className="w-10 sidebar" >
                 <NavbarBrand href="/">Alumni dashboard</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
