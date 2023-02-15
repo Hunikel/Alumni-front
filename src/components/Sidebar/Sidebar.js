@@ -6,8 +6,6 @@ import LockIcon from '@material-ui/icons/Lock';
 import EcoIcon from '@material-ui/icons/Eco';
 import SearchIcon from "@/components/Header/SearchIcon";
 import {Announcement, Money} from "@material-ui/icons";
-import ArticleIcon from '@mui/icons-material/Article';
-import Profile from "@/components/Profile/Profile";
 const Sidebar = () => {
     return (
         <div className="md:w-3/12 w-6/12 h-screen shadow-2xl">
@@ -42,7 +40,7 @@ const Sidebar = () => {
                     <div className="">
                         <div
                             className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
-                            <ArticleIcon className="text-gray-300"/>
+                            <Money className="text-gray-300"/>
                             <p className="text-gray-600  ">Articles</p>
                         </div>
                     </div>

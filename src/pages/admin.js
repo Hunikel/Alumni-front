@@ -1,19 +1,22 @@
-import Sidebar from "@/components/Sidebar/Sidebar";
-import AdminHeader from "@/components/Header/AdminHeader";
-import Container from "@/components/Container/Container";
 import "src/styles/Home.module.css";
 import "tailwindcss/tailwind.css";
+import FullLayout from "../layouts/FullLayout";
+import {Dashboard} from "@material-ui/icons";
+import Recherche from "@/components/Recherche/Recherche";
+import Alerts from "./ui/alerts";
+import Badges from "./ui/badges";
+import Buttons from "./ui/buttons";
+import Grid from "./ui/grid";
 const admin = () => {
     return (
         <div>
-            <div className="flex w-screen h-screen" >
-                <Sidebar />
-                <div className="w-screen ">
-                    <AdminHeader />
-                    <Container />
-                </div>
-            </div>
-
+            <FullLayout>
+                <Dashboard/>
+                <Alerts />
+                <Badges/>
+                <Buttons/>
+                <Grid/>
+            </FullLayout>
         </div>
     );
 }

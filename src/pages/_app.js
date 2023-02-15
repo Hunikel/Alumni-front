@@ -9,6 +9,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 // extra css
 import "@/styles/default.css";
 import "@/styles/style.css";
+import "../../styles/style.scss";
 
 config.autoAddCss = false
 

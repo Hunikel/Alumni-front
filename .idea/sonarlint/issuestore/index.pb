@@ -8,8 +8,6 @@ R
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-A
-src/pages/_app.js,e\9\e936121dda8f9c2ffc041c94b844a46992031b88
 [
 +src/components/BannerSlider/BannerSlider.js,b\8\b81c6c485561c3890401f2f1007eeb2183631660
 H
@@ -42,8 +40,6 @@ X
 (src/components/ContactArea/ContactMap.js,6\5\65e2f9229876eb5a56a187c9b64b06a981bf2678
 F
 src/context/context.js,6\0\60145885e173a6824be9a4b1a46fae3b09d9b6d8
-N
-src/context/ContextProvider.js,5\6\56ff85501c909f7ed0e18efd3e0077362f86061a
 C
 src/data/ctaArea.js,7\5\7582b343d8bb6eb8dc07944b000ce62d6abe0edb
 ]
@@ -171,10 +167,6 @@ W
 'src/components/TeamArea/TeamMainArea.js,a\6\a6e6199ca7ca0371259623ef48aa6752dac56290
 ]
 -src/components/AboutArea/AboutIntroduction.js,c\e\ceb1c727ce4e43ffdbd8566f96e7e6246f6f7e65
-B
-src/pages/about.js,2\0\207946fdb4f923496ff01d702cfb0e32de6e79c6
->
-next.config.js,8\1\811a6d5a2e04fadb44d8eec365f2fa8af5c4facf
 S
 #src/components/FunFacts/FunFacts.js,b\f\bfc952d7fc9f5cb90cfee1e35d6f3365cd088323
 R
